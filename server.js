@@ -3,6 +3,7 @@ const path = require('path')
 const app = express()
 const {bots, playerRecord} = require('./data')
 const {shuffleArray} = require('./utils')
+const dotenv = require('dotenv').config()
 
 app.use(express.json())
 
